@@ -24,23 +24,32 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 50%;
+    width: 60%;
 
 }
-#rock{
-background-image: url(./images/rock.png);
+.choice:hover{
+    opacity: 0.6;
+    cursor:pointer;
 }
-#paper{
-    background-image: url(./images/paper.png);
+
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%; 
+    border:3px solid palegoldenrod;
+
 }
-#scissors{
-    background-image: url(./images/scissors.png);
-    }
-
-.img{
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    object-fit: contain;
-
+.choice{
+    height: 180px;
+    width:180px;  
+}
+.score_board{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    margin-top:4rem;
+    gap:2rem;
 }
